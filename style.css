@@ -1,14 +1,17 @@
+/* Default */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
-    font-style: normal;
-    font-variation-settings: "wdth" 100;
-    /* font-weight: <weight>; */
 }
 
+/* ----- Navbar ----- */
+
+/* ----- Header ----- */
+
+/* Header-right (header links) */
 ul {
     list-style: none;
 }
@@ -17,6 +20,7 @@ a {
     text-decoration: none;
 }
 
+/* Hero section wrapper (wrapper for hero background and everything on it (navbar, hero text and image)) */
 .hero-section {
     background-color: #1f2937;
     display: flex;
@@ -42,7 +46,7 @@ a {
 
 .navbar-right ul {
     display: flex;
-    gap: 16px;
+    gap: 24px;
 }
 
 .navbar-right a {
@@ -89,6 +93,8 @@ a {
     padding-bottom: 20px;
 }
 
+/* ----- Button ----- */
+/* Button */
 button {
     width: 30%;
     padding: 10px;
@@ -99,10 +105,11 @@ button {
     transition: background-color 0.3s ease;
 }
 
+/* Button on hover */
 button:hover {
     background-color: #2563eb;
 }
-
+/* Button text (link) */
 button a {
     text-decoration: none;
     color: white;
