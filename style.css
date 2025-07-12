@@ -116,3 +116,18 @@ button a {
     font-size: 15px;
     font-weight: bold;
 }
+
+/* Hero section wrapper (wrapper for hero background and everything on it (navbar, hero text and image)) */
+.info-section {
+    padding-top: 2%;
+    padding-bottom: 6%;
+}
+
+.info-section h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
