@@ -95,7 +95,7 @@ a {
 
 /* ----- Button ----- */
 /* Button */
-button {
+.hero-text button {
     width: 30%;
     padding: 10px;
     background-color: #3882f6;
@@ -106,14 +106,14 @@ button {
 }
 
 /* Button on hover */
-button:hover {
+.hero-text button:hover {
     background-color: #2563eb;
 }
 /* Button text (link) */
 button a {
     text-decoration: none;
     color: white;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -192,4 +192,64 @@ button a {
 .author p {
     font-weight: bolder;
     font-size: x-large;
+}
+
+.call-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 10%;
+    padding-bottom: 10%; */
+    margin: 10%;
+}
+
+.call-blue-box {
+    background-color: #3882f6;
+    padding: 80px;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call {
+    width: 75%;
+}
+
+.call h2 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.call p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.call-button button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-color: #e5e7eb;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px; */
+    padding: 10px;
+    width: 150%;
+}
+
+.call-button button:hover {
+    background-color: #2563eb;
+}
+/* Button text (link) */
+.call-button button a {
+    text-decoration: none;
+    font-size: 18px;
 }
