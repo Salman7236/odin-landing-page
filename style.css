@@ -162,3 +162,34 @@ button a {
     text-align: center;
     width: 100;
 }
+
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    align-items: flex-end;
+}
+
+.quote {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 15px;
+}
+
+.quote p {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author {
+    margin-right: 20.5%;
+}
+
+.author p {
+    font-weight: bolder;
+    font-size: x-large;
+}
